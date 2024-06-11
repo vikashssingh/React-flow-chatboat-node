@@ -1,0 +1,27 @@
+.text-node-container{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 90px;
+    width: 250px;
+}
+
+.text-node-container.active{
+    box-shadow: rgba(27, 27, 247, 0.2) 0px 7px 29px 0px;
+}
+
+.text-node-container .header{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+    background-color: #D0C0F7;
+    padding: 6px 10px;
+    font-weight: 500;
+}
+
+.text-node-container .body{
+    padding: 6px 10px;
+    font-size: 14px;
+    background-color: white;
+}

@@ -1,0 +1,88 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Header p {
+  font-size: 22px;
+}
+.Header button {
+  padding: 10px 12px;
+  border: 2px solid #215bfb;
+  background-color: white;
+  border-radius: 8px;
+  color: #215bfb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Header button:hover {
+  background-color: #215bfb;
+  color: white;
+}
+
+.Body {
+  display: flex;
+  height: 100%;
+}
+
+.react-flow-container {
+  flex: 4;
+  height: 100%;
+}
+
+.side-bar {
+  flex: 1;
+  padding:16px 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+
+.side-bar .message-box{
+  border: 2px solid #215bfb;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+}
+.message-box p:first-child{
+  font-size: 25px;
+}
+
+.message-box p:last-child{
+  font-size: 16px;
+  font-weight: 500;
+  color: #215bfb;
+}
+
+.side-bar textarea{
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 6px;
+  height: 100px;
+}
+
+.edit-header{
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid grey;
+  display: flex;
+  color: white;
+  background-color:#215bfb ;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding: 8px;
+}
